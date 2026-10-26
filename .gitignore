@@ -1,0 +1,24 @@
+# 构建产物
+/build/bin/
+/galgame-manager.exe
+/GalgameManager.exe
+
+# 前端
+/frontend/node_modules/
+/frontend/dist/
+
+# 临时
+/_tmp/
+*.log
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Wails 前端依赖标记
+/frontend/package.json.md5
+\.gitignore
+galgame-manager.bundle
+push-to-github.bat
